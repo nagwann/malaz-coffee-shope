@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.body {
+    width: 100%;
+    height: max-content;
+
+
+}
+
+
+/* start nav style */
+.nav {
+    width: 100%;
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(230, 223, 204, 0.493);
+    font-family: "Delius", cursive;
+}
+
+.nav .logo {
+    display: flex;
+    margin-left: 60px;
+}
+
+.nav .logo img {
+    width: 50px;
+}
+
+.nav .logo h4 {
+    font-family: "Delius", cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.nav .links a:hover {
+    color: rgb(92, 90, 92);
+
+}
+
+
+.nav .btn i {
+    margin-right: 10px;
+}
+
+.nav .btn {
+    margin-right: 80px;
+}
+
+/* end nav style */
+
+
+/* start section1 style */
+.section1 {
+    width: 100%;
+    height: 60vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    background-color: rgba(230, 223, 204, 0.493);
+}
+
+.section1 .left,
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.section1 .left {
+    margin-left: 60px;
+    margin-top: 50px;
+    color: rgb(88, 61, 26);
+}
+
+.section1 .left h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.section1 .right img {
+    width: 400px;
+    margin-left: 140px;
+
+}
+
+.section1 button {
+    all: unset;
+    margin-top: 50px;
+    padding: 0.6rem 2rem;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(88, 61, 26);
+
+}
+
+/* end section1 style */
+
+
+/* start section1 style */
+.section2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(88, 61, 26);
+}
+
+.section2 h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+/* end section2 style */
+
+
+/* start section3 style */
+.section3 h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    color: rgb(88, 61, 26);
+}
+
+.section3 .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3 .card {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card img:hover{
+
+/* color: rgba(240, 248, 255, 0.80); */
+opacity: 0.3;
+
+}
+
+/* end section3 style */
+
+/* start section4 style */
+.section4 {
+    
+    display: flex;
+    margin: 10%;
+
+}
+
+.section4 img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+form {
+    margin-left: 70px;
+
+}
+
+form h1 {
+    margin: 20px 0px;
+    font-size: 50px;
+    color: rgb(88, 61, 26);
+}
+
+form h4 {
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.choises {
+    display: inline;
+}
+
+form input {
+    all: unset;
+    background-color: rgba(231, 230, 230, 0.649);
+    font-size: 120%;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px ;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+form .choises select {
+    all: unset;
+    background-color: rgba(231, 230, 230, 0.649);
+    color: rgba(0, 0, 0, 0.536);
+    font-size: 120%;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 65px 15px 65px;
+    margin: 30px 20px 30px 0px;
+}
+
+.section4 button {
+
+    all: unset;
+    display: inline-block;
+    background-color: rgba(231, 230, 230, 0.649);
+    color: rgba(0, 0, 0, 0.736);
+    font-size: 120%;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 100px 15px 100px;
+    margin-left: 15px;
+
+}
+
+.section4 button:hover {
+    background-color: rgba(0, 0, 0, 0.475);
+    color: aliceblue;
+}
+
+/* end section4 style */
+
+/* start footer style */
+
+footer {
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.left-side {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+footer h4 {
+    margin-top: 15px;
+}
+
+.icons{
+    margin: 15px 10px 15px 10px;
+}
+
+footer a{
+    all: unset;
+}
+
+/* end footer style */
